@@ -13,7 +13,7 @@ function ManagePage({ products, editingProduct, onSave, onCancel, onEdit, onDele
 
         <section>
             <h2 className="mb-5 text-2xl font-bold text-slate-900">
-                Manage Products <span className="text-indigo-600">({products. Length})</span>
+                Manage Products <span className="text-indigo-600">({products.length})</span>
             </h2>
             <ProductGrid products={products} showActions onEdit={onEdit} onDelete={onDelete} />
         </section>

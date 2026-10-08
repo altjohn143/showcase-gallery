@@ -1,7 +1,7 @@
 import ProductCard from "./ProductCard";
 
 function ProductGrid({ products, showActions = false, onEdit, onDelete}){
-    if (products.lenght === 0){
+    if (products.length === 0){
         return (
             <div className="rounded-2xl border-2 border-dashed border-slate-300 py-20 text-center text-slate-400">
                 No products yet.
