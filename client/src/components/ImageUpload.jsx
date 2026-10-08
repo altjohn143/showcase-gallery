@@ -7,7 +7,7 @@ function ImageUpload({ image, onChange, onError}){
         if (!file.type.startsWith("image/")) return onError("Please choose an image file.");
         if (file.size > MAX_SIZE) return onError ("Image is too large. Maximum Size is 1MB.");
         const reader = new FileReader();
-        reader.onLoad = () => onChange(reader.result);
+        reader.onload = () => onChange(reader.result);
         reader.readAsDataURL(file);
         onError("");
     };
