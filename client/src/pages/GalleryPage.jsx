@@ -12,30 +12,30 @@ function GalleryPage ({ products, loading}){
                 <p className="mt-3 text-white/80">
                     {products.length} items available . by [John Matthew Olano]
                 </p>
-                <div className="mt-6 flex flex-wrap gap-3 text-sm font-semibold">
+                <div className="mt-6 space-y-2 text-sm">
                     <a
                         href="https://showcase-gallery-6c5k.onrender.com"
                         target="_blank"
                         rel="noreferrer"
-                        className="rounded-full bg-white/15 px-4 py-2 transition hover:bg-white/25"
+                        className="block w-fit break-all underline decoration-white/50 underline-offset-4 transition hover:text-white/75"
                     >
-                        Render API
+                        https://showcase-gallery-6c5k.onrender.com
                     </a>
                     <a
                         href="https://github.com/altjohn143/showcase-gallery.git"
                         target="_blank"
                         rel="noreferrer"
-                        className="rounded-full bg-white/15 px-4 py-2 transition hover:bg-white/25"
+                        className="block w-fit break-all underline decoration-white/50 underline-offset-4 transition hover:text-white/75"
                     >
-                        GitHub Repository
+                        https://github.com/altjohn143/showcase-gallery.git
                     </a>
                     <a
                         href="https://showcase-gallery-xi.vercel.app"
                         target="_blank"
                         rel="noreferrer"
-                        className="rounded-full bg-white/15 px-4 py-2 transition hover:bg-white/25"
+                        className="block w-fit break-all underline decoration-white/50 underline-offset-4 transition hover:text-white/75"
                     >
-                        Vercel Website
+                        https://showcase-gallery-xi.vercel.app
                     </a>
                 </div>
             </section>
