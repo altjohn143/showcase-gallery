@@ -12,6 +12,32 @@ function GalleryPage ({ products, loading}){
                 <p className="mt-3 text-white/80">
                     {products.length} items available . by [John Matthew Olano]
                 </p>
+                <div className="mt-6 flex flex-wrap gap-3 text-sm font-semibold">
+                    <a
+                        href="https://showcase-gallery-6c5k.onrender.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="rounded-full bg-white/15 px-4 py-2 transition hover:bg-white/25"
+                    >
+                        Render API
+                    </a>
+                    <a
+                        href="https://github.com/altjohn143/showcase-gallery.git"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="rounded-full bg-white/15 px-4 py-2 transition hover:bg-white/25"
+                    >
+                        GitHub Repository
+                    </a>
+                    <a
+                        href="https://showcase-gallery-xi.vercel.app"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="rounded-full bg-white/15 px-4 py-2 transition hover:bg-white/25"
+                    >
+                        Vercel Website
+                    </a>
+                </div>
             </section>
             {loading ? (
              <p className="py-20 text-center text-slate-400">Loading Products...</p>
